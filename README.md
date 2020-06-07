@@ -1,10 +1,10 @@
 # Eyes-Have-Ears
 Système de guidage de pilotes de parapente/delta malentendant produit par la Fédération Française de Vol Libre.
 
-Attention
-=========
-Ce système est en cours de test et de validation en conditions réelles d'utilisation. 
-Il ne peut être utilisé que par des moniteurs de parapente ou delta qualifiés.
+Points de vigilence
+===================
+  - Ce système est en cours de test et de validation en conditions réelles d'utilisation. 
+  - Il ne peut être utilisé que par des moniteurs de parapente ou delta qualifiés.
 
 Principe de fonctionnement
 ==========================
