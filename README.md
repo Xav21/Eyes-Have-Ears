@@ -4,7 +4,7 @@ Système de guidage de pilotes de parapente/delta malentendant
 Principe de fonctionnement:
 ===========================
 
-Lire Objectifs et Principe de fonctionement.pdf
+Lire Objectifs et Principe de fonctionnement.pdf
 
 Prérequis :
 ===========
