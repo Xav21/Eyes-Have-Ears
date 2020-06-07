@@ -3,7 +3,7 @@ Syst√®me de guidage de pilotes de parapente/delta malentendant produit par la F√
 
 Principe de fonctionnement
 ==========================
-  - Merci de lire "Objectifs et Principe de fonctionnement.pdf"
+  - Lire "Objectifs et Principe de fonctionnement.pdf"
   
 Points de vigilence
 ===================
