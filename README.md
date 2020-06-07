@@ -12,12 +12,13 @@ Points de vigilence
 
 Prérequis
 =========
-  - 2 boitiers d'interface LORA/Bluetooth Eyes Have Ears moniteur.
-    - uu
-  - 1 boitier d'interface LORA/Bluetooth Eyes Have Ears pilote.
-  - Une paire de lunette de vison tête haute Optivent ORA-2.
-  - Téléphone Android 5.0 ou supérieur.
-  - Application app-debug.apk installée sur les téléphones des moniteurs.
+  - Hardware
+    - 2 boitiers d'interface LORA/Bluetooth Eyes Have Ears moniteur.
+    - 1 boitier d'interface LORA/Bluetooth Eyes Have Ears pilote.
+    - Une paire de lunette de vison tête haute Optivent ORA-2.
+  - Sotfware
+    - Téléphone Android 5.0 ou supérieur.
+    - Application app-debug.apk installée sur les téléphones des moniteurs.
   
 Version futures
 ===============
