@@ -19,6 +19,8 @@ Prérequis
   - Sotfware
     - Téléphone Android 5.0 ou supérieur.
     - Application app-debug.apk installée sur les téléphones des moniteurs.
+    
+    EyesHaveEars-Moniteur-1.0-release.apk est en cours de tests.
   
 Version futures
 ===============
