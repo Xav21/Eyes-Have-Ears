@@ -12,7 +12,7 @@
  * Hardware : 
  *      ESP32 avec Bluetooth Low Energy
  *      Module LORA 866 Mhz - Rx=GPIO16 - Tx=GPIO17
- *      Selection ORA-2 / AR1 = GPIO23   0=ORA-02 1=AR1
+ *      Selection AR1 / ORA-2 = GPIO23  0=AR1 1=ORA-02 
  *      
  * Lunette supportées     
  *      Lunette EyeWear AR1 service uid="0000fff0-0000-1000-8000-00805f9b34fb"
@@ -38,12 +38,12 @@ String libelleLunette[] = {"Optivent ORA-2","AltitudeEyeWear AR1"};
 #define TXPin 17
 SoftwareSerial virtuelSerialLora(RXPin,TXPin); //RX/TX
 
-// Bluetooth objects
+// Bluetooth objects pour Optivent ORA2
 #include "BluetoothSerial.h"
 #define BTName "HC-05"
 BluetoothSerial SerialBT;
 
-// BLE library & objects
+// BLE library & objects pour Altitude EyeWear AR1
 #include "BLEDevice.h"
 static BLEAdvertisedDevice* myDevice;
 static BLERemoteCharacteristic* pRemoteCharacteristic;
@@ -217,10 +217,10 @@ class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
 
   // Lecture de GPIO 23. Si 0=>Optivent ORA-2 1=>Altitude EyeWear AR1
   pinMode(pinSelector, INPUT);
-  if (digitalRead(pinSelector) == LOW) {
-    selectGlass = 1;
+  if (digitalRead(pinSelector) == HIGH) {
+    selectGlass = 0;
   } else{
-    selectGlass = 0;    
+    selectGlass = 1;    
   }
   
   Serial.println("============================");
@@ -285,7 +285,7 @@ void sendDataToEyeWear (String fullDataToSend){
     dataToSend.trim();
     dataToSend.replace ("  "," ");
     dataToSend.replace ("-"," ");   // pour maximaliser l'affichage
-    //dataToSend = removeAccents (dataToSend); 
+    dataToSend = removeAccents (dataToSend); 
     //dataToSend.toUpperCase(); 
 
     // Construction des 4 lignes à envoyer à la lunette
@@ -409,6 +409,17 @@ void loopAR1() {
  //============================================================
 
 // if (Serial.available() > 0) {
+/*
+   Serial.print("Connected=");
+   Serial.print( connected );
+   Serial.print(" doConnect=" );
+   Serial.print(doConnect);
+   Serial.print("virtuelSerialLora.available()=" );
+   Serial.print(virtuelSerialLora.available());
+   Serial.print("virtuelSerialLora.read()=");
+   Serial.println(virtuelSerialLora.read() );
+*/
+   
    if (virtuelSerialLora.available()) {
     
     // read the incoming byte on LORA serial port. 
@@ -423,7 +434,7 @@ void loopAR1() {
     Serial.print(str);  
     dataReceived += str;    
     // Lecture jusqu'à la fin de texte ']' ou un time out de 200ms  
-    while (str != "]" && ((millis() - starttime) < 200) ){
+    while (str != "]" && ((millis() - starttime) < 5000) ){
         if (virtuelSerialLora.available()) {      
             str = (char)virtuelSerialLora.read();      
             dataReceived += str;      
@@ -438,8 +449,8 @@ void loopAR1() {
       Serial.println(dataReceived);
     }
     
-    // Si connecté, envoi vers la lunette EyeWear
-    if (connected) {    
+    // Si connecté et message bien formatté, envoi vers la lunette EyeWear
+    if (connected && str == "]") {    
         String txt;
         txt = split (dataReceived,loraDataSeparator, 1, 1024);   
 
@@ -450,7 +461,7 @@ void loopAR1() {
           displayDelay = split(dataReceived,loraDataSeparator, 5, maxLineSize).toInt() * 1000;
           dataToSend = "::" + split(dataReceived,loraDataSeparator, 3, maxLineSize) + " en ligne"; 
           sendDataToEyeWear (dataToSend);
-          
+          virtuelSerialLora.write(dataReceived.c_str());
         }
 
         // Message 
@@ -482,7 +493,7 @@ void loopAR1() {
 }
 
 //========================================================
-// loopAR1 
+// loopORA2
 //========================================================
 void loopORA2() {
    while (virtuelSerialLora.available()){
@@ -518,6 +529,7 @@ void setupAR1() {
 
 // Initialisation Lora
   virtuelSerialLora.begin(19200);
+  //virtuelSerialLora.begin(9600);
 //
   
 }
@@ -526,5 +538,5 @@ void setupAR1() {
 //========================================================
 void setupORA2() {
   virtuelSerialLora.begin(19200);
-  SerialBT.begin("HC-05"); 
+  SerialBT.begin(BTName); 
 }
