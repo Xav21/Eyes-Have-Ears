@@ -15,13 +15,8 @@ Prérequis
   - Hardware
     - 2 boitiers d'interface LORA/Bluetooth Eyes Have Ears moniteur.
     - 1 boitier d'interface LORA/Bluetooth Eyes Have Ears pilote.
-    - Une paire de lunette de vison tête haute Optivent ORA-2.
+    - Une paire de lunette de vison tête haute Altitude EyeWear AR1 Optivent ORA-2 ou 
   - Sotfware
     - Téléphone Android 5.0 ou supérieur.
-    - Application app-debug.apk installée sur les téléphones des moniteurs.
+    - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs.
     
-    EyesHaveEars-Moniteur-1.0-release.apk est en cours de tests.
-  
-Version futures
-===============
-  - Support des lunettes Altitude EyeWear AR1 (Sept 2020)
