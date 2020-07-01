@@ -3,9 +3,10 @@
 # Eyes-Have-Ears
 Système de guidage de pilotes de parapente/delta malentendant produit par la Fédération Française de Vol Libre.
 
-Principe de fonctionnement
-==========================
-  - Lire ![Eyes Have Ears - Objectifs & Principe de fonctionnement .pdf](https://github.com/Xav21/Eyes-Have-Ears/blob/master/Eyes%20Have%20Ears%20-%20Objectifs%20%26%20Principe%20de%20fonctionnement%20.pdf)
+Fonctionnement de la solution
+=============================
+  - ![Eyes Have Ears - Objectifs & Principe de fonctionnement .pdf](https://github.com/Xav21/Eyes-Have-Ears/blob/master/Eyes%20Have%20Ears%20-%20Objectifs%20%26%20Principe%20de%20fonctionnement%20.pdf)
+  - ![Eyes have ears - Manuel utilisateur v01.00.pdf](Eyes have ears - Manuel utilisateur v01.00.pdf)
   
 Points de vigilence
 ===================
