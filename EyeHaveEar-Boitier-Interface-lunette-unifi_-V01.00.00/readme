@@ -1,1 +1,10 @@
-Boitier interface Lora/BT/BLE pour Optivent ORA-2 & Altitude EyeWear AR1
+Boitier interface unifié Lora/BT/BLE.
+
+Modes de fonctionnement :
+=========================
+  - Interface lunette Altitude EyeWear AR1
+  - Interface lunette ORA-2
+  - Interface Moniteur 1
+  - Interface Moniteur 2
+  
+  Selection du mode par dip swith 
