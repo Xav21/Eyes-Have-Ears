@@ -5,7 +5,7 @@ Syst√®me de guidage de pilotes de parapente/delta malentendant produit par la F√
 
 Principe de fonctionnement
 ==========================
-  - Lire "Objectifs et Principe de fonctionnement.pdf"
+  - Lire https://github.com/Xav21/Eyes-Have-Ears/blob/master/Eyes%20Have%20Ears%20-%20Objectifs%20%26%20Principe%20de%20fonctionnement%20.pdf
   
 Points de vigilence
 ===================
