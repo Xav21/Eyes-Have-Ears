@@ -1,4 +1,5 @@
-https://github.com/Xav21/Eyes-Have-Ears/blob/master/logo%20(Small).png
+![alt tag](https://github.com/Xav21/Eyes-Have-Ears/blob/master/logo%20(Small).png)
+
 # Eyes-Have-Ears
 Système de guidage de pilotes de parapente/delta malentendant produit par la Fédération Française de Vol Libre.
 
