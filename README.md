@@ -16,6 +16,7 @@ Points de vigilence
 Prérequis
 =========
   - Mode LORA
+  -----------
     - Hardware
       - 3 boitiers d'interface LORA/Bluetooth Eyes Have Ears.
       - Une paire de lunette de vison tête haute Altitude EyeWear AR1, Optivent ORA-2.
