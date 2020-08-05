@@ -22,17 +22,13 @@ Prérequis
     - Sotfware
       - Téléphone Android 5.0 ou supérieur.
       - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs.
+      
   - Mode connecté réseau 3/4/5G
     - Hardware
       - Une paire de lunette de vison tête haute Altitude EyeWear AR1.
     - Sotfware
       - Téléphone Android 5.0 ou supérieur.
       - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs et élèves.
-  
-Configuration 
-=============
-  - Chaque moniteur est équipé d'un boitier d'interface configuré en mode Moniteur 1 ou Moniteur 2
-  - Le pilote est équipé d'un boitier d'interface configuré en mode AR1 ou ORA-2 suivant le modèle de lunette utilisé.
 
 Futur 
 =====
