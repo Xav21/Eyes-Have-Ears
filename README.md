@@ -36,7 +36,8 @@ Futur
 
 Versions
 ========
-  - V01.00.00 Version initiale pour lunettes Optivent ORA-2.
+  - V01.02.00 Ajout du support d'une connexion 3/4G au lieu des boitiers LORA. 
+  L'élève est aussi equipé de l'application. La lunette ORA-2 n'est pas supportée dans le mode connecté réseau.
   - V01.01.00 Ajout support lunette Altitude EyesWear AR1.
-  - V01.02.00 Ajout du support d'une connexion 3/4G au lieu des boitiers LORA. L'élève est aussi equipé de l'application. La lunette ORA-2 n'est pas supportée dans le mode connecté réseau.
+  - V01.00.00 Version initiale pour lunettes Optivent ORA-2.
   
