@@ -15,12 +15,19 @@ Points de vigilence
 
 Prérequis
 =========
-  - Hardware
-    - 3 boitiers d'interface LORA/Bluetooth Eyes Have Ears.
-    - Une paire de lunette de vison tête haute Altitude EyeWear AR1, Optivent ORA-2.
-  - Sotfware
-    - Téléphone Android 5.0 ou supérieur.
-    - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs.
+  -Mode LORA
+    - Hardware
+      - 3 boitiers d'interface LORA/Bluetooth Eyes Have Ears.
+      - Une paire de lunette de vison tête haute Altitude EyeWear AR1, Optivent ORA-2.
+    - Sotfware
+      - Téléphone Android 5.0 ou supérieur.
+      - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs.
+  -Mode connecté réseau 3/4/5G
+    - Hardware
+      - Une paire de lunette de vison tête haute Altitude EyeWear AR1.
+    - Sotfware
+      - Téléphone Android 5.0 ou supérieur.
+      - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs et élèves.
   
 Configuration 
 =============
@@ -29,4 +36,11 @@ Configuration
 
 Futur 
 =====
-  - La prise en charge d'autre type de lunette à vision tête haute poura être envisagée.
+  - La prise en charge d'autre type de lunettes à vision tête haute poura être envisagée.
+
+Versions
+========
+  - V01.00.00 Version initiale pour lunettes Optivent ORA-2.
+  - V01.01.00 Ajout support lunette Altitude EyesWear AR1.
+  - V01.02.00 Ajout du support d'une connexion 3/4G au lieu des boitiers LORA. L'élève est aussi equipé de l'application. La lunette ORA-2 n'est pas supportée dans le mode connecté réseau.
+  
