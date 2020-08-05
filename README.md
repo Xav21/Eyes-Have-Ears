@@ -15,14 +15,14 @@ Points de vigilence
 
 Prérequis
 =========
-  -Mode LORA
+  - Mode LORA
     - Hardware
       - 3 boitiers d'interface LORA/Bluetooth Eyes Have Ears.
       - Une paire de lunette de vison tête haute Altitude EyeWear AR1, Optivent ORA-2.
     - Sotfware
       - Téléphone Android 5.0 ou supérieur.
       - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs.
-  -Mode connecté réseau 3/4/5G
+  - Mode connecté réseau 3/4/5G
     - Hardware
       - Une paire de lunette de vison tête haute Altitude EyeWear AR1.
     - Sotfware
