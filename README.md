@@ -36,6 +36,7 @@ Futur
 
 Versions
 ========
+  - V01.03.00 Visualisation du contenu affiché par les lunettes.   
   - V01.02.00 Ajout du support "Mode Réseau" qui utilise une connexion 3/4/5G au lieu des boitiers LORA . L'élève est equipé de l'application sur sont téléphone Android. Les lunettes ORA-2 ne sont pas supportées dans le mode réseau.
   - V01.01.00 Ajout support lunettes Altitude EyesWear AR1.
   - V01.00.00 Version initiale pour lunettes Optivent ORA-2.
