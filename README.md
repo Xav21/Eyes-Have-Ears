@@ -37,8 +37,8 @@ Futur
 Versions
 ========
   - V01.03.00 
-     - Visualisation du contenu affiché par les lunettes. 
-     - L'application renommée en Eyes Have Ears
+     - Amélioration de l'interface utilisateur : 
+     - Application renommée en Eyes Have Ears
   - V01.02.00 
     - Ajout du support "Mode Réseau" qui utilise une connexion 3/4/5G au lieu des boitiers LORA. L'élève est equipé de l'application sur sont téléphone Android. 
     - Attention, les lunettes ORA-2 ne sont pas supportées dans le mode réseau.
