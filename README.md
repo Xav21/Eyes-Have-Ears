@@ -21,14 +21,14 @@ Prérequis
       - Une paire de lunette de vison tête haute Altitude EyeWear AR1, Optivent ORA-2.
     - Sotfware
       - Téléphone Android 5.0 ou supérieur.
-      - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs.
+      - Application EyesHaveEars-x.y-release.apk installée sur les téléphones des moniteurs.
       
   - Mode connecté réseau 3/4/5G
     - Hardware
       - Une paire de lunette de vison tête haute Altitude EyeWear AR1. (Les lunettes ORA62 ne sont pas supportées)
     - Sotfware
       - Téléphone Android 5.0 ou supérieur.
-      - Application EyesHaveEars-Moniteur-x.y-release.apk installée sur les téléphones des moniteurs et élèves.
+      - Application EyesHaveEars-x.y-release.apk installée sur les téléphones des moniteurs et élèves.
 
 Futur 
 =====
@@ -36,9 +36,14 @@ Futur
 
 Versions
 ========
+  - V01.04.00 (version en debug)
+     - Ajout du support de la lunette Optivent/ORA-2 en mode réseau.
+     - Un téléphone Android 5.0 ou supérieur peut être utilisé pour l'affichage "elève/pilote guidé" si une paire de lunette n'est pas disponible.
+     - Amélioration de la gestion de la configuration (préférences).
+     - L'application supporte Android V4.4 uniquement pour l'Optivent en mode réseau ou lora.
   - V01.03.00 
-     - Amélioration de l'interface utilisateur : 
-     - Application renommée en Eyes Have Ears
+     - Amélioration de l'interface utilisateur.
+     - Application renommée en Eyes Have Ears.
   - V01.02.00 
     - Ajout du support "Mode Réseau" qui utilise une connexion 3/4/5G au lieu des boitiers LORA. L'élève est equipé de l'application sur sont téléphone Android. 
     - Attention, les lunettes ORA-2 ne sont pas supportées dans le mode réseau.
