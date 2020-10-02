@@ -39,8 +39,10 @@ Versions
   - V01.04.00 (version en debug)
      - Ajout du support de la lunette Optivent/ORA-2 en mode réseau.
      - Un téléphone Android 5.0 ou supérieur peut être utilisé pour l'affichage "elève/pilote guidé" si une paire de lunette n'est pas disponible.
+     - Intégration de l'application Optivent/Ora-2 dans EyesHaveEars. Selection via la configuration de l'application. 
      - Amélioration de la gestion de la configuration (préférences).
      - L'application supporte Android V4.4 uniquement pour l'Optivent en mode réseau ou lora.
+     - Prise en charge des oreillettes 'usb'
   - V01.03.00 
      - Amélioration de l'interface utilisateur.
      - Application renommée en Eyes Have Ears.
