@@ -36,7 +36,9 @@ Futur
 
 Versions
 ========
-  - V01.04.00 (version en debug)
+  - V01.04.01
+     - Ajout de la configuration l'orientation de l'écran smartphone/lunette. Par défaut, paysage.
+  - V01.04.00 
      - Ajout du support de la lunette Optivent/ORA-2 en mode réseau.
      - Un téléphone Android 5.0 ou supérieur peut être utilisé pour l'affichage "elève/pilote guidé" si une paire de lunette n'est pas disponible.
      - Intégration de l'application Optivent/Ora-2 dans EyesHaveEars. Selection via la configuration de l'application. 
