@@ -36,6 +36,8 @@ Futur
 
 Versions
 ========
+  - V01.04.02
+     - Implementation de MQTT/SSL.
   - V01.04.01
      - Ajout de la configuration l'orientation de l'écran smartphone/lunette. Par défaut, paysage.
   - V01.04.00 
