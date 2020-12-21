@@ -36,6 +36,8 @@ Futur
 
 Versions
 ========
+  - V01.04.03
+     - Correction anomalie SSL sur ORA2.
   - V01.04.02
      - Implementation de MQTT/SSL.
   - V01.04.01
