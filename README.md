@@ -36,6 +36,8 @@ Futur
 
 Versions
 ========
+  - V01.04.04
+      - Ajout Notification Android pour un usage sur montre conectée. Cas typique de l'utilisation du vibreur. Ne fonctionne pas en mode LORA
   - V01.04.03
      - Correction anomalie SSL sur ORA2.
   - V01.04.02
@@ -59,5 +61,5 @@ Versions
   - V01.01.00 
     - Ajout support lunettes Altitude EyesWear AR1.
   - V01.00.00 
-    - Version initiale pour lunettes Optivent ORA-2.
+    - Version initiale pour lunettes Optivent ORA-2. Utilise LORA comme communicateur.
   
