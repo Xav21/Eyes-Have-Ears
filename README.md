@@ -37,7 +37,7 @@ Futur
 Versions
 ========
   - V01.04.04
-      - Ajout Notification Android pour un usage sur montre conectée. Cas typique de l'utilisation du vibreur. Ne fonctionne pas en mode LORA
+      - Ajout d'une Notification Android pour un usage sur montre connectée. Cas typique de l'utilisation du vibreur. Ne fonctionne pas en mode LORA
   - V01.04.03
      - Correction anomalie SSL sur ORA2.
   - V01.04.02
