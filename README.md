@@ -6,7 +6,7 @@ Système de guidage de pilotes de parapente/delta malentendant produit par la F�
 Fonctionnement de la solution
 =============================
   - ![Eyes Have Ears - Objectifs & Principe de fonctionnement .pdf](https://github.com/Xav21/Eyes-Have-Ears/blob/master/Eyes%20Have%20Ears%20-%20Objectifs%20%26%20Principe%20de%20fonctionnement%20.pdf)
-  - ![Eyes have ears - Manuel utilisateur v01.02.pdf](https://github.com/Xav21/Eyes-Have-Ears/blob/master/Eyes%20have%20ears%20-%20Manuel%20utilisateur%20v01.02.pdf)
+  - ![Eyes have ears - Manuel utilisateur v01.02.pdf](https://github.com/Xav21/Eyes-Have-Ears/blob/master/Eyes%20have%20ears%20-%20Manuel%20utilisateur%20v01.04.pdf)
   
 Points de vigilence
 ===================
@@ -33,6 +33,11 @@ Prérequis
 Futur 
 =====
   - La prise en charge d'autre type de lunettes à vision tête haute poura être envisagée.
+
+
+Licence
+========
+Eye have Ears est disponible sous la General Public License (GPL), version 3
 
 Versions
 ========
