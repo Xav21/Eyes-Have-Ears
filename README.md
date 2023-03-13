@@ -1,7 +1,9 @@
 # Eyes-Have-Ears : Aide au guidage de personnes malentendante
 ![Logo](/app/src/main/ic_logo-playstore.png)
 >version 2023-02-02
+
 > Cette application est disponible sur Google PlayStore : Eyes have ears - Pitoum - Sports
+
 Cette application a été pensée pour le guidage d'un pilote de parapente malendendant par des moniteurs. Le moniteur donne la consigne verbale. Elle est alors transmise vers l'interface du pilote sélectionnée.
 Elle pourrait être utilisée pour d'autres activités.
 
