@@ -1,7 +1,7 @@
 # Eyes-Have-Ears : Aide au guidage de personnes malentendante
 >version 2023-02-02
 
-!./app/src/main/ic_logo-playstore.png
+!/app/src/main/ic_logo-playstore.png
 
 Cette application a été pensée pour le guidage d'un pilote de parapente malendendant par des moniteurs. Le moniteur donne la consigne verbale. Elle est alors transmise vers l'interface du pilote sélectionnée.
 
