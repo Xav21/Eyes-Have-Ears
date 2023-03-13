@@ -3,6 +3,7 @@
 >version 2023-02-02
 
 Cette application a été pensée pour le guidage d'un pilote de parapente malendendant par des moniteurs. Le moniteur donne la consigne verbale. Elle est alors transmise vers l'interface du pilote sélectionnée.
+Elle pourrait être utilisée pour d'autres activités.
 
 ## Fonctionalités 
 + Transmission des consignes dans un réseau de vol (typiquement le nom de l'école ou du groupe)
@@ -17,4 +18,4 @@ Cette application a été pensée pour le guidage d'un pilote de parapente malen
 + Android 7.0 ou supérieur
 + Un accès à un serveur MQTT
 
-> Cette application est disponible sur Google PlayStore
+> Cette application est disponible sur Google PlayStore : Eyes have ears - Pitoum - Sports
