@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">#Eyes have Ears</string>
+    <string name="synchroniser">Synchroniser</string>
+    <string name="configuration">Configuration</string>
+    <string name="dictionnaire">Translation des mots</string>
+    <string name="start">Démarrer</string>
+    <string name="verifCfg">Vérifier la configuration</string>
+    <string name="about">A propos</string>
+
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Paramétrage général Titles -->
+    <string name="mode_header">Configuration</string>
+    <string name="personalisation_header">Préférences utilisateur</string>
+    <string name="glassesPersonalisation_header">Réglage lunettes</string>
+
+    <!-- Modes de fonctionnement -->
+    <string name="mode_title">Mode</string>
+    <string name="lunettes_title">Affichage</string>
+    <string name="mastermode_title">Mode</string>
+    <string name="comm_title">Communication</string>
+
+    <!-- Messages personalisation  -->
+    <string name="nom_title">Nom</string>
+
+    <string name="bracelet_title">Bracelet vibrant</string>
+
+    <string name="reseau_title">Nom de votre réseau de guidage</string>
+    <string name="reseau_title_summary">doit être unique, par exemple le nom de votre école</string>
+
+    <string name="vibration_title">Vibration</string>
+    <string name="vibration_summary">sur reception de ma consigne</string>
+    <string name="vibration_duree_title">Durée de la vibration</string>
+    <string name="vibration_duree_summary">en milliseconde</string>
+
+    <string name="affichage_title">Durée d\'affichage de ma consigne</string>
+    <string name="affichage_summary">en secondes</string>
+
+    <string name="orientation_title">Mode paysage</string>
+    <string name="orientation_summary">sur écran ou lunettes Android </string>
+
+    <string name="color_title">Couleur de ma consigne</string>
+    <string name="color_title_summary">sur l\'ecran moniteur</string>
+
+    <string name="textColorGlasses_title">Couleur de la consigne</string>
+    <string name="textColorGlasses_summary">sur écran ou lunettes Android</string>
+    <string name="backGroundColorGlasses_title">Couleur de fond de la consigne</string>
+    <string name="backGroundColorGlasses_summary">sur écran ou lunettes Android</string>
+
+    <!-- Configuration avancée  -->
+    <string name="advanced_header">Configuration avancée</string>
+    <string name="advanced_advice">en mode réseau</string>
+
+    <string name="advanced_mode">Configuration mode avancé</string>
+
+    <string name="mqtt_title">Serveur de messagerie</string>
+    <string name="mqtt_server_name_title">Serveur MQTT</string>
+    <string name="mqtt_server_port_title">MQTT port</string>
+    <string name="mqtt_username_title">Utilisateur MQTT</string>
+    <string name="mqtt_password_title">Mot de passe MQTT</string>
+    <string name="badCfg">Smartphone non requis dans ce mode.</string>
+
+</resources>

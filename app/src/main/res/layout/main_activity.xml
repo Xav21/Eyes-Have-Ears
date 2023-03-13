@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Relay"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.chavanet.EyesHaveEars.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="-16dp"
+    tools:layout_editor_absoluteY="-128dp"
+    android:background="#000000"
+    android:keepScreenOn="true">
+
+    <include
+        android:id="@+id/toobar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toobar">
+
+        <RelativeLayout
+            android:id="@+id/form_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10pt"
+                android:layout_marginTop="90dp"
+                android:layout_width="wrap_content"
+                android:elevation="5dp"
+                android:indeterminateTint = "#fff"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/Start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10pt"
+                android:layout_marginTop="22dp"
+                android:text=""
+                android:textSize="30dp"
+                android:textColor="@drawable/style_start_button_text_color"
+                android:background="@drawable/style_start_button_background"/>
+
+            <View
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/Start"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/mode"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                 android:id="@+id/reseau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nom"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+
+            <View
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/reseau"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/lunettes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/typeBracelet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lunettes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/typeBracelet"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/msgMQTT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/msgAR1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msgMQTT"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/msgBracelet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msgAR1"
+                android:layout_marginTop="1dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

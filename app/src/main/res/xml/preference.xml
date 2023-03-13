@@ -1,0 +1,124 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Configuration utilisateur">
+        <EditTextPreference
+            app:key="nom"
+            app:title="@string/nom_title"
+            app:useSimpleSummaryProvider="true"
+            />
+        <EditTextPreference
+            app:key="reseau"
+            app:title="@string/reseau_title"
+            app:summary="@string/reseau_title_summary"
+            app:defaultValue="TEST (A modifier avant utilisation)"
+            app:useSimpleSummaryProvider="true"
+            />
+
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/mode_entries"
+            app:entryValues="@array/mode_values"
+            app:key="mode"
+            app:title="@string/mode_title"
+            app:useSimpleSummaryProvider="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Réglages mode élève"
+        app:allowDividerBelow="true">
+        <ListPreference
+            app:defaultValue="1"
+            app:entries="@array/lunettes_entries"
+            app:entryValues="@array/lunettes_values"
+            app:key="lunettes"
+            app:title="@string/lunettes_title"
+            app:useSimpleSummaryProvider="true"
+            />
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/bracelet_entries"
+            app:entryValues="@array/bracelet_values"
+            app:key="bracelet"
+            app:title="@string/bracelet_title"
+            app:useSimpleSummaryProvider="true"
+            />
+
+        <com.rarepebble.colorpicker.ColorPreference
+            android:key="textcolorConsigne"
+            android:title="@string/textColorGlasses_title"
+            android:summary="@string/textColorGlasses_summary"
+            android:defaultValue="#000000" />
+
+        <com.rarepebble.colorpicker.ColorPreference
+            android:key="backgroundColorConsigne"
+            android:title="@string/backGroundColorGlasses_title"
+            android:summary="@string/backGroundColorGlasses_summary"
+            android:defaultValue="#ffffff" />
+
+        <SwitchPreferenceCompat
+            android:layout_height="match_parent"
+            android:defaultValue="true"
+            android:summary="@string/orientation_summary"
+            app:key="orientation"
+            app:title="@string/orientation_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Réglages communs (mode moniteur &amp; élève)"
+        app:allowDividerBelow="true">
+        <SeekBarPreference
+            android:key="temporisation"
+            android:title="@string/affichage_title"
+            android:summary="@string/affichage_summary"
+            app:min="2"
+            android:max="20"
+            app:showSeekBarValue="true"
+            android:defaultValue="7" />
+
+        <com.rarepebble.colorpicker.ColorPreference
+            android:key="color"
+            android:title="@string/color_title"
+            android:summary="@string/color_title_summary"
+            android:defaultValue="#ff1D70B7" />
+
+        <SwitchPreferenceCompat
+            app:key="vibration"
+            app:title="@string/vibration_title"
+            android:summary="@string/vibration_summary"
+            app:defaultValue="true"
+            android:textOff="pas de vivbration"
+            android:textOn="vibre sur reception de mon message" />
+
+        <SeekBarPreference
+            app:key="dureevibration"
+            android:summary="@string/vibration_duree_summary"
+            app:title="@string/vibration_duree_title"
+            app:dependency="vibration"
+            app:defaultValue="250"
+            app:min="200"
+            app:seekBarIncrement="50"
+            android:max="1000"
+            app:showSeekBarValue="true" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="Communication"
+        app:allowDividerBelow="true">
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/comm_entries"
+            app:entryValues="@array/comm_values"
+            app:key="comm"
+            app:title="@string/comm_title"
+            app:useSimpleSummaryProvider="true"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

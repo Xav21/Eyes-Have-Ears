@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:keepScreenOn="true"
+    tools:context="fr.chavanet.EyesHaveEars.ConsignesActivityMoniteur">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10pt"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:elevation="5dp"
+        android:indeterminateTint = "#ffffffff"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/l0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/ar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/colorCloneDisplayBackground"
+        android:layout_below="@id/l0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fullConsigne"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:gravity="center"
+            android:textColor="@color/colorCloneDisplayText"
+            android:textSize="42dp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/ligne0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textColor="@color/colorCloneDisplayText"
+            android:textSize="42dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ligne1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ligne0"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textSize="42dp"
+            android:textColor="@color/colorCloneDisplayText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ligne2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ligne1"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textSize="42dp"
+            android:textColor="@color/colorCloneDisplayText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ligne3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ligne2"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textSize="42dp"
+            android:textColor="@color/colorCloneDisplayText"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/microphone"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:elevation="6dp"
+        android:gravity="center"
+
+        android:visibility="invisible"
+        app:srcCompat="@drawable/microphone_anime" />
+
+    <ImageButton
+        android:id="@+id/synchroniser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/style_sync_button_background"
+        android:elevation="5dp"
+        android:src="@drawable/synchronize_48" />
+
+    <View
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ar1"
+        android:background="@android:color/white" />
+
+    <ListView
+        android:id="@+id/ListeMessage"
+        android:layout_below="@id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </ListView>
+
+
+
+</RelativeLayout>

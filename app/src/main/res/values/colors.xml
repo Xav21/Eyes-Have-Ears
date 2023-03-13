@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D70B7</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1D70B7</color>
+    <color name="colorOrange">#e85B60</color>
+    <color name="colorDeepOrange">#D81B60</color>
+
+    <color name="colorStartButtonEnable">#1D70B7</color>
+    <color name="colorStartButtonDisable">#F0850F</color>
+    <color name="colorConsigne">#FFA2A2A2</color>
+    <color name="colorInformation">#FF808080</color>
+
+    <color name="colorCloneDisplayBackground">#1D70B7</color>
+    <color name="colorCloneDisplayText">#ffffff</color>
+
+    <color name="colorORA2DisplayBackground">#ffffff</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorORA2DisplayText">#000000</color>
+
+</resources>
