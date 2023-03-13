@@ -4,9 +4,8 @@
 Cette application a été pensée pour le guidage d'un pilote de parapente malendendant par des moniteurs. Le moniteur dicte la consigne qui est alors transmise sur l'interface sélectionnée.
 
 ## Fonctionalités 
-Affichage de la consigne sur l'écran de smartphone
-
-Affichage de la consigne sur les lunettes Altitude EyeWear
++ Affichage de la consigne sur l'écran de smartphone
++ Affichage de la consigne sur les lunettes Altitude EyeWear
 
 Vibration sur montre WearOs ou LT716
 
