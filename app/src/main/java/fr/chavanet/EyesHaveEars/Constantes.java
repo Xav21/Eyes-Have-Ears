@@ -2,7 +2,7 @@ package fr.chavanet.EyesHaveEars;
 
 class Constantes {
 
-    // MQTT access
+    // MQTT server access
     public final static String defaultMQTTServername = "mqttservername";
     public final static String defaultMQTTServerPort = "8883";
 
