@@ -8,7 +8,7 @@ Cette application a été pensée pour le guidage d'un pilote de parapente malen
 Elle pourrait être utilisée pour d'autres activités.
 
 ## Fonctionalités 
-+ Transmission des consignes dans un réseau de vol (typiquement le nom de l'école ou du groupe)
++ Transmission des consignes dans un réseau défini par l'utilisateur (typiquement le nom de l'école ou du groupe de pilotes)
 + Affichage de la consigne sur l'écran de smartphone
 + Affichage de la consigne sur les lunettes Altitude EyeWear
 + Vibration sur montre WearOs ou LT716
