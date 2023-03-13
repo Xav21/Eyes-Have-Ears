@@ -6,19 +6,14 @@ Cette application a été pensée pour le guidage d'un pilote de parapente malen
 ## Fonctionalités 
 + Affichage de la consigne sur l'écran de smartphone
 + Affichage de la consigne sur les lunettes Altitude EyeWear
-
-Vibration sur montre WearOs ou LT716
-
-Acquitement sur l'affichage de la consigne sur l'ecran de l'élève
-
-Historique des dernière consignes transmises 
++ Vibration sur montre WearOs ou LT716
++ Acquitement sur l'affichage de la consigne sur l'ecran de l'élève
++ Historique des dernière consignes transmises 
 
 	
 	
-
 ## Prérequis 
-Android 7.0 ou supérieur
-
-Un serveur MQTT
++ Android 7.0 ou supérieur
++ Un accès à un serveur MQTT
 
 	
