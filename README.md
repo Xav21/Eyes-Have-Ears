@@ -17,4 +17,4 @@ Cette application a été pensée pour le guidage d'un pilote de parapente malen
 + Android 7.0 ou supérieur
 + Un accès à un serveur MQTT
 
-	
+> Cette application est disponible sur Google PlayStore
